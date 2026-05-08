@@ -1,17 +1,35 @@
 # VyaparSetu Presentation Web
 
-This folder contains the TypeScript presentation website for VyaparSetu. It is
-designed for explaining the Android app to shop owners, users, and stakeholders.
+This folder contains the React + TypeScript marketing website for VyaparSetu. It is
+designed for presenting the Android app to shop owners, users, and business
+stakeholders.
+
+The site uses a compact home page and internal hash pages so the first screen
+stays clean while detailed explanations remain available when needed.
+
+## Source Structure
+
+```text
+src/
+  assets/        Real screenshots and visual assets
+  components/    Shared React components
+  data/          Icons, features, screens, roles, and FAQ data
+  pages/         Route-level TSX pages
+  App.tsx        Hash-router and page selection
+  main.tsx       React entry point
+  styles.css     Shared marketing site styles
+```
 
 The website covers:
 
-- App problem and solution
+- Market problem and product positioning
+- Problem, objectives, and business benefits on the home page
+- Business benefits for shop owners
 - Billing, inventory, khata, history, admin, workspace, barcode, and sync modules
-- Role-based access
-- Full shop workflow
-- Technical trust points
-- Demo/pitch script
-- FAQ and GitHub Pages deployment notes
+- Target customer types
+- Role-based access for owners, managers, and staff
+- Checkout workflow and real app screen analysis
+- FAQ and demo/contact call-to-action
 
 The visual identity uses the same launcher mark and vector icon paths from the
 Android app resources.
