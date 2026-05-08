@@ -57,11 +57,24 @@ The production files are generated in `VyaparSetu-docs/dist`.
 
 ## GitHub Pages Workflow
 
-The workflow template is stored at:
+If `VyaparSetu-docs` is pushed as its own GitHub repository, use:
 
 ```text
 .github/workflows/deploy-docs.yml
 ```
 
-GitHub Actions only discovers workflow files from the repository root `.github/workflows`
-directory. This workflow builds the `VyaparSetu-docs` Node app and deploys its distribution folder to GitHub Pages.
+If `VyaparSetu-docs` stays inside the main Android repository, use the root workflow:
+
+```text
+../.github/workflows/deploy-docs.yml
+```
+
+GitHub Pages setup:
+
+1. Open the GitHub repository.
+2. Go to Settings > Pages.
+3. Set Source to GitHub Actions.
+4. Push to `main` or run the `Deploy VyaparSetu Docs` workflow manually.
+
+The workflow installs dependencies with `npm ci`, builds the React/TypeScript site,
+and deploys the generated `dist` folder to GitHub Pages.
