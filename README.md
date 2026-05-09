@@ -1,6 +1,6 @@
-# Vyomra Presentation Web
+# Vymora Presentation Web
 
-This folder contains the React + TypeScript marketing website for Vyomra. It is
+This folder contains the React + TypeScript marketing website for Vymora. It is
 designed for presenting the Android app to shop owners, users, and business
 stakeholders.
 
@@ -37,33 +37,33 @@ Android app resources.
 ## Local Development
 
 ```sh
-cd Vyomra-docs
+cd Vymora-docs
 npm install
 npm run dev
 ```
 
 On Android shared storage, npm packages that use native binaries may fail to run
-from `/sdcard`. If that happens, copy `Vyomra-docs` to Termux internal storage, run the
+from `/sdcard`. If that happens, copy `Vymora-docs` to Termux internal storage, run the
 commands there, and keep the source files in this folder.
 
 ## Production Build
 
 ```sh
-cd Vyomra-docs
+cd Vymora-docs
 npm run build
 ```
 
-The production files are generated in `Vyomra-docs/dist`.
+The production files are generated in `Vymora-docs/dist`.
 
 ## GitHub Pages Workflow
 
-If `Vyomra-docs` is pushed as its own GitHub repository, use:
+If `Vymora-docs` is pushed as its own GitHub repository, use:
 
 ```text
 .github/workflows/deploy-docs.yml
 ```
 
-If `Vyomra-docs` stays inside the main Android repository, use the root workflow:
+If `Vymora-docs` stays inside the main Android repository, use the root workflow:
 
 ```text
 ../.github/workflows/deploy-docs.yml
@@ -74,7 +74,7 @@ GitHub Pages setup:
 1. Open the GitHub repository.
 2. Go to Settings > Pages.
 3. Set Source to GitHub Actions.
-4. Push to `main` or run the `Deploy Vyomra Docs` workflow manually.
+4. Push to `main` or run the `Deploy Vymora Docs` workflow manually.
 
 The workflow installs dependencies with `npm ci`, builds the React/TypeScript site,
 and deploys the generated `dist` folder to GitHub Pages.

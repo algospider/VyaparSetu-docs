@@ -1,4 +1,4 @@
-name: Deploy VyaparSetu Docs
+name: Deploy Vymora Docs
 
 on:
   push:

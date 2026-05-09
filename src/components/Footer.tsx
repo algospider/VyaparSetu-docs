@@ -7,12 +7,12 @@ export function Footer() {
       <div className="brand">
         <AppLogo />
         <span>
-          <strong>Vyomra</strong>
+          <strong>Vymora</strong>
           <small>© 2026 Algospider</small>
         </span>
       </div>
       <div className="footer-links">
-        <a href="https://github.com/algospider/Vyomra" target="_blank" rel="noreferrer" aria-label="GitHub">
+        <a href="https://github.com/algospider/Vymora" target="_blank" rel="noreferrer" aria-label="GitHub">
           <Icon name="github" />
         </a>
         <a href="mailto:mohanrajauria@gmail.com" aria-label="Email">

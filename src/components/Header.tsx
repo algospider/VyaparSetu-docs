@@ -12,10 +12,10 @@ const navItems = [
 export function Header() {
   return (
     <header className="site-header">
-      <a className="brand" href="#/" aria-label="Vyomra presentation home">
+      <a className="brand" href="#/" aria-label="Vymora presentation home">
         <AppLogo />
         <span>
-          <strong>Vyomra</strong>
+          <strong>Vymora</strong>
           <small>Shop management app</small>
         </span>
       </a>

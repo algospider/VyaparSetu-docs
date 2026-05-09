@@ -134,7 +134,7 @@ export const roles: Role[] = [
 ];
 
 export const faqs: Faq[] = [
-  { question: "Who is Vyomra made for?", answer: "Vyomra is made for small and medium shops that need billing, inventory, customer credit, reports, staff access, and simple cloud sync from one Android app." },
+  { question: "Who is Vymora made for?", answer: "Vymora is made for small and medium shops that need billing, inventory, customer credit, reports, staff access, and simple cloud sync from one Android app." },
   { question: "Can the app work without internet?", answer: "Yes. The app uses local SQLite storage for daily operations. Firebase sync is used when internet is available." },
   { question: "Can the owner track profit?", answer: "Yes. When cost price is added to products, admin reports can show gross profit along with sales and revenue." },
   { question: "Can invoices be shared with customers?", answer: "Yes. The app generates PDF invoices for sales and can share them through WhatsApp or the Android share sheet." }

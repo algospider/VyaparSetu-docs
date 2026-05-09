@@ -1,4 +1,4 @@
-# Ramm to Vyomra Build Map
+# Ramm to Vymora Build Map
 
 This project treats `Ramm` as the source product architecture and adapts it from clinic management to general-store management.
 
@@ -15,7 +15,7 @@ This project treats `Ramm` as the source product architecture and adapts it from
 - `data/remote`: Firebase Auth, workspace, data sync, global settings, signals.
 - `util`: barcode scanner, QR, PDF/share, file, session, security helpers.
 
-## Vyomra Mapping
+## Vymora Mapping
 
 - Patient -> Customer
 - Visit -> Sale
@@ -27,7 +27,7 @@ This project treats `Ramm` as the source product architecture and adapts it from
 - Clinic settings -> Store settings
 - Clinic reports -> Sales history and analytics
 
-## Current Vyomra Structure
+## Current Vymora Structure
 
 - `MainActivity.kt`: app entry, permission/login gate, Ramm-style home navigation, and shared header.
 - `core/model`: product, customer, sale, cart item, stats, sales reports.
@@ -52,7 +52,7 @@ This project treats `Ramm` as the source product architecture and adapts it from
 
 ## Still To Build For Full Ramm Parity
 
-- PDF invoice rendering. Vyomra currently shares a clean text invoice.
-- Realtime signal listener and notification service. Vyomra currently has a send/fetch signal screen.
+- PDF invoice rendering. Vymora currently shares a clean text invoice.
+- Realtime signal listener and notification service. Vymora currently has a send/fetch signal screen.
 - Production Firebase Database security rules and validation for shared stores.
 - Safer database migration path before release. Current schema reset behavior is acceptable only for early development.
