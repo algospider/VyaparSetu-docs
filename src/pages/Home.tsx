@@ -11,7 +11,7 @@ export function Home() {
           <p className="eyebrow">Marketing Presentation</p>
           <h1>One Android app for shop billing, inventory, khata, and reports.</h1>
           <p className="hero-text">
-            VyaparSetu helps small and medium shop owners manage daily counter work with speed,
+            Vyomra helps small and medium shop owners manage daily counter work with speed,
             control, and clear business visibility.
           </p>
           <div className="hero-actions">
@@ -51,7 +51,7 @@ export function Home() {
             <h2>Make daily retail work simple, fast, and measurable.</h2>
           </div>
           <p>
-            VyaparSetu brings billing, inventory, khata, reports, staff access, invoices, and sync
+            Vyomra brings billing, inventory, khata, reports, staff access, invoices, and sync
             into a mobile-first workflow that shop teams can use every day.
           </p>
         </div>

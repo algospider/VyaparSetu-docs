@@ -6,7 +6,7 @@ export function Technology() {
   return (
     <>
       <PageHero eyebrow="Technology" title="Local-first Android architecture with cloud sync.">
-        VyaparSetu is built to stay fast during counter work while keeping store data ready for sync and backup.
+        Vyomra is built to stay fast during counter work while keeping store data ready for sync and backup.
       </PageHero>
       <section className="section trust-section">
         <div className="section-heading center">

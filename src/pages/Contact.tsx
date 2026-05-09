@@ -10,7 +10,7 @@ export function Contact() {
       <section className="section workflow-section">
         <div className="section-heading center">
           <p className="eyebrow">Next Step</p>
-          <h2>Present VyaparSetu to shop owners with confidence</h2>
+          <h2>Present Vyomra to shop owners with confidence</h2>
           <p>Use this page as a marketing presentation, demo guide, and product overview.</p>
         </div>
         <div className="deploy-grid">
@@ -18,13 +18,13 @@ export function Contact() {
             <div className="feature-icon"><Icon name="mail" /></div>
             <h3>Request a Demo</h3>
             <p>Contact the team for product explanation, setup discussion, or business inquiry.</p>
-            <a href="mailto:mohanrajauria@gmail.com?subject=VyaparSetu%20Demo%20Request" className="button secondary">Email for Demo</a>
+            <a href="mailto:mohanrajauria@gmail.com?subject=Vyomra%20Demo%20Request" className="button secondary">Email for Demo</a>
           </article>
           <article>
             <div className="feature-icon"><Icon name="github" /></div>
             <h3>View Project</h3>
             <p>Review the Android app source, technical structure, and implementation details.</p>
-            <a href="https://github.com/algospider/VyaparSetu" target="_blank" rel="noreferrer" className="button secondary">GitHub Repository</a>
+            <a href="https://github.com/algospider/Vyomra" target="_blank" rel="noreferrer" className="button secondary">GitHub Repository</a>
           </article>
           <article>
             <div className="feature-icon"><Icon name="help" /></div>
